@@ -87,6 +87,9 @@ public class MainActivity extends AppCompatActivity
             MainActivity.this.startActivity(intent);
 
         } else if (id == R.id.nav_gallery) {
+            //goto profile filler for now
+            //Intent intent = new Intent( MainActivity.this, FormDataActivity.class);
+           // MainActivity.this.startActivity(intent);
 
         } else if (id == R.id.nav_slideshow) {
 

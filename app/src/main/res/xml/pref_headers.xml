@@ -3,17 +3,17 @@
     <!-- These settings headers are only used on tablets. -->
 
     <header
-        android:fragment="shreyas.io.weld.azaro.FillerActivity$GeneralPreferenceFragment"
+        android:fragment="shreyas.io.weld.azaro.SettingsActivity$GeneralPreferenceFragment"
         android:icon="@drawable/ic_info_black_24dp"
         android:title="@string/pref_header_general" />
 
     <header
-        android:fragment="shreyas.io.weld.azaro.FillerActivity$NotificationPreferenceFragment"
+        android:fragment="shreyas.io.weld.azaro.SettingsActivity$NotificationPreferenceFragment"
         android:icon="@drawable/ic_notifications_black_24dp"
         android:title="@string/pref_header_notifications" />
 
     <header
-        android:fragment="shreyas.io.weld.azaro.FillerActivity$DataSyncPreferenceFragment"
+        android:fragment="shreyas.io.weld.azaro.SettingsActivity$DataSyncPreferenceFragment"
         android:icon="@drawable/ic_sync_black_24dp"
         android:title="@string/pref_header_data_sync" />
 

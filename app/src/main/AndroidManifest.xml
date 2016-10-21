@@ -19,12 +19,13 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".SubjectActivity"
+            android:label="@string/title_activity_subject"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".ScheduleActivity"
             android:label="@string/title_activity_schedule"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".FillerActivity"
-            android:label="@string/title_activity_filler"></activity>
     </application>
 
 </manifest>
